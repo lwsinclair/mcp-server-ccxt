@@ -5,6 +5,7 @@ A Model Context Protocol (MCP) server that provides real-time and historical cry
 [![MCP](https://img.shields.io/badge/MCP-Compatible-blue)](https://modelcontextprotocol.io)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org)
 [![CCXT](https://img.shields.io/badge/CCXT-Powered-green)](https://github.com/ccxt/ccxt)
+[![smithery badge](https://smithery.ai/badge/mcp-server-ccxt)](https://smithery.ai/server/mcp-server-ccxt)
 
 <a href="https://glama.ai/mcp/servers/9kbbk1kmg2"><img width="380" height="200" src="https://glama.ai/mcp/servers/9kbbk1kmg2/badge" alt="Cryptocurrency Market Data Server MCP server" /></a>
 
@@ -35,6 +36,16 @@ A Model Context Protocol (MCP) server that provides real-time and historical cry
   - MEXC
 
 ## Installation
+
+### Installing via Smithery
+
+To install Cryptocurrency Market Data Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/mcp-server-ccxt):
+
+```bash
+npx -y @smithery/cli install mcp-server-ccxt --client claude
+```
+
+### Installing Manually
 
 ```bash
 # Using uv (recommended)
